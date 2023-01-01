@@ -42,14 +42,15 @@ const Sidebar = () => {
 
   const theme = useTheme()
   const colors = tokens(theme.palette.mode)
-  const [isCollapsed, setIsCollapsed] = useState(false)
+  const [isCollapsed, setIsCollapsed] = useState(true)
   const [selected, setSelected] = useState('Dashboard')
 
   return (
     <Box
       sx={{
         "& .pro-sidebar-inner":{
-          background: `${colors.primary[400]} !important`
+          background: `${colors.primary[400]} !important`,
+          height: '120%'
         },
         "& .pro-icon-wrapper":{
           backgroundColor: "transparent !important"
@@ -129,7 +130,7 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "15px 0 0 0", textAlign:'center' }}
+              sx={{ m: "15px 0 0 0", textAlign: 'center' }}
             >
               Data
             </Typography>
