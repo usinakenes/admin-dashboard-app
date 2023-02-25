@@ -1,3 +1,8 @@
+#admin-dashboard-app
+
+A dashboard frontend app using Nivo charts. Available at: https://admin-dashboard-cz1j3c8ri-usinakenes.vercel.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
