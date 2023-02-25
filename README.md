@@ -1,4 +1,4 @@
-#admin-dashboard-app
+# admin-dashboard-app
 
 A dashboard frontend app using Nivo charts. Available at: https://admin-dashboard-cz1j3c8ri-usinakenes.vercel.app/
 
